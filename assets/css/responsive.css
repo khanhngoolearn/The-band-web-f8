@@ -1,0 +1,171 @@
+/* PC  */
+@media (min-width: 64em) {
+
+}
+
+/* TABLET  */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #footer .bi i {
+        margin: 0px 8px;
+        font-size: 32px;
+    }
+
+    .Donors {
+        margin-top: 32px;
+        font-size: 32px;
+    }
+
+    .w3s {
+        font-size: 32px;
+    }
+
+    .modal-content {
+        max-width: calc(100% - 64px);
+    }
+}
+
+/* PC AND TABLET  */
+@media (min-width:46.25em) {
+    .menu-btn {
+        display: none;
+    }
+}
+
+/* MOBILE  */ 
+@media (max-width: 46.1875em) {
+    .m-col-full {
+        width: 100%;
+    }
+
+    .m-full-width {
+        width: 100%;
+    }
+
+    .m-mgb-10 {
+        margin-bottom: 10px;
+    }
+
+    .m-mgb-16 {
+        margin-bottom: 16px;
+    }
+
+    .m-mgb-20 {
+        margin-bottom: 20px;
+    }
+
+    .m-pd-16-0 {
+        padding: 16px 0px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #header #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header #nav .subnav  {
+        position: initial;
+        background-color: #000;
+    }
+
+    #header #nav .subnav a {
+        color: #fff;
+        padding: 3px 40px;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-btn {
+        /* float: right; */
+        line-height: 49px;
+        padding: 0px 20px;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+    }
+
+    #header .menu-btn:hover {
+        background-color: #ccc;     
+    }
+
+    #header .menu-btn:hover .menu {
+        color: #000; 
+        cursor: pointer;
+    }
+
+    .menu {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .slider-description {
+        display: none;
+    }
+
+    .avt {
+        width: 60%;
+    }
+
+    #content .buy-tickets {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    #content .send {
+        margin-top: 16px;
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    #contact .contact-input {
+        padding: 12px;
+    }
+
+    #footer .bi i {
+        margin: 0px 8px;
+        font-size: 20px;
+    }
+
+    .Donors {
+        margin-top: 32px;
+        font-size: 20px;
+    }
+
+    .w3s {
+        font-size: 20px;
+    }
+
+    .modal-content {
+        max-width: calc(100% - 16px);
+    }
+
+    .modal-header {
+        height: 152px;
+    }
+    
+    
+}
+
+/* TABLET AND PC  */
+@media (max-width: 63.9375em ) {
+    .contact-input {
+        padding: 10px;
+    }
+    
+    .pay,
+    .modal-input {
+        padding: 16px;
+    }
+}
